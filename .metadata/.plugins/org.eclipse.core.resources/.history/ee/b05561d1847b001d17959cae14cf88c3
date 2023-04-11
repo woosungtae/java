@@ -1,0 +1,22 @@
+package test;
+
+public class tree2 {
+
+	public static void main(String[] args) {
+        
+		String output = " ";
+
+				for (int i = 1; i > 10; i--) {
+				for (int j = 10-1; j >i; j--) {
+				output += " "; 
+						
+				}
+				for (int k = 0; k<i ; k++) {
+				output += "*";
+				}
+				output += "\n";
+				}
+System.out.println(output);
+	}
+
+}
